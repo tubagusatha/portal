@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 13, 2025 at 09:56 AM
+-- Generation Time: Feb 13, 2025 at 10:05 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -215,7 +215,7 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('KQmDPwaOGEpR7WVYZcJHBjfsEbSsLskiNU5wZeQQ', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'YTo0OntzOjY6Il90b2tlbiI7czo0MDoid1loMHRNSmRic0VFbmtwc2dsVnFOam8xZEtSN0p1S3dKTjNHOTExRCI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mjg6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9wb3J0YWwiO31zOjY6Il9mbGFzaCI7YToyOntzOjM6Im9sZCI7YTowOnt9czozOiJuZXciO2E6MDp7fX1zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToxO30=', 1739436298);
+('PBG1On1XBtHC949uYmKi22OIkmq79heDO5LHiK4z', 2, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'YTo0OntzOjY6Il90b2tlbiI7czo0MDoid1loMHRNSmRic0VFbmtwc2dsVnFOam8xZEtSN0p1S3dKTjNHOTExRCI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mjc6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9sb2dpbiI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjI7fQ==', 1739437469);
 
 -- --------------------------------------------------------
 
@@ -262,7 +262,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `roles`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'atha', 'fos@gmail.com', 'ADMIN', NULL, '$2y$12$ZPPpU1qTuCNSe8/I0kCW.uA0OSeZ5WQwgwbeZHnHoTbATEakON0Wy', NULL, '2025-02-12 21:14:42', '2025-02-12 21:14:42');
+(2, 'Admin', 'AdminDiskominfoEXHUA@gmail.com', 'ADMIN', NULL, '$2y$12$y98LmhqFgDkYylRH5UtqAedswNjYQdgYwcMXsB1VsuD/rFi7.FLPm', NULL, '2025-02-13 09:04:28', '2025-02-13 09:04:28');
 
 --
 -- Indexes for dumped tables
@@ -401,7 +401,7 @@ ALTER TABLE `ucapans`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
